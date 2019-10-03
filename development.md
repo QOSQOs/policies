@@ -39,7 +39,7 @@ The `master` branch is our protected branch of all development activities. The d
 3.  In case your branch is not updated, `merge master` into your branch to bring it up to date.
 4. Push the branch and open a `pull request` targeting `master`.
 5. Add new `commits` to address feedback of your collegues.
-6. Use la operacion de github `squash and merge` feature to merge the branch back to `master`.
+6. Use the operation of Github `squash and merge` feature to merge the branch back to `master`.
 
 An important condition for before performing the last step of the branch strategy (which focuses on merging the new features, changes or fixes to the master branch) is detailed in the merge strategy.
 
@@ -58,7 +58,7 @@ In order for a pull request to be merged, it must satisfy the following:
 Graphically, the process of creating and merging PRs via *squash-and-merge* looks like the following:
 
 ```
-new     branch         +----A---B---C---D-- (deleted)
+new branch             +----A---B---C---D-- (deleted)
                       /                /
 master          -----+----------------+-----E
 ```
